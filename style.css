@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=DM+Sans:ital@1&family=Edu+SA+Beginner:wght@500&family=Gentium+Plus:ital@1&family=Graduate&family=Indie+Flower&family=Kanit&family=Lora:ital@1&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@600&family=Nuosu+SIL&family=Pacifico&family=Roboto+Slab&family=Source+Serif+Pro:ital,wght@1,600&family=Vesper+Libre&display=swap');
+body{
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand{
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(251,201,186);
+ 
+}
+.img-footer{
+  width: 2%;
+}
+.navbar-nav{
+  font-size: 14px;
+  font-weight: bold;
+}
+.w-100{
+  width: 600px;
+   height: 500px;
+}
+.banner img {
+  width: 100vw;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(251,201,186) ;
+  -webkit-text-stroke-width: 1px;
+  font-family: 'Lora', serif;
+ font-size: 30px;
+ background-color: rgba(6, 8, 9, 0.5);
+width: 400px;
+height: 250px;
+
+}
+
+.carousel-caption h5{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.carousel-caption p{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card-img-top{
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.card-body{
+  padding: 5px;
+}
+
+.card-body h5{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-bo p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.img-fluid.rounded-circle{
+  border: 5px solid  rgb(251,201,186,0.5) ;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  border-radius: 50%;
+  background-color: #EFEFEF;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.social-media a img {
+  width: 24px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-price h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.product-price button {
+  padding: 2px 10px;
+  background-color: #0096FF;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.carrinho  {
+  width: 20%;
+  height: 5%;
+  background-color: #0096FF;
+  border-radius: 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.carrinho:hover{
+  background-color:aquamarine;
+}
+
+footer{
+  color: #999;
+}
+
+footer a{
+  color: #999;
+  font-size: 22px;
+}
